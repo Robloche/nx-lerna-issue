@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test": "npx lerna run test"
+  }
+}

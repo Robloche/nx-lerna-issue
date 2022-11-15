@@ -1,0 +1,14 @@
+{
+  "name": "@my/project2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"project 2\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ntg/ui": "@my/project1"
+  }
+}

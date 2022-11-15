@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '6.0.3',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'test'
+0 silly argv }
+1 notice cli v6.0.3
+2 verbose rootPath C:\code\nx-lerna-issue
+3 verbose run nx.json was not found or is missing targetDefaults. Task dependencies will not be automatically included.
+4 error Error: Invalid projects: @my/project1, @my/project2
+4 error     at checkForInvalidProjects (C:\Code\nx-lerna-issue\node_modules\nx\src\command-line\run-many.js:45:15)
+4 error     at projectsToRun (C:\Code\nx-lerna-issue\node_modules\nx\src\command-line\run-many.js:38:5)
+4 error     at C:\Code\nx-lerna-issue\node_modules\nx\src\command-line\run-many.js:23:26
+4 error     at Generator.next (<anonymous>)
+4 error     at fulfilled (C:\Code\nx-lerna-issue\node_modules\tslib\tslib.js:115:62)
